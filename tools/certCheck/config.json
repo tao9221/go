@@ -1,0 +1,20 @@
+{
+  "domains": [
+    "www.baidu.cn",
+    "www.taobao.com"
+  ],
+  "alert": {
+    "days_before_expiry": 15
+  },
+  "email": {
+    "smtp_host": "smtp.163.com",
+    "smtp_port": 465,
+    "use_ssl": true,
+    "username": "xxx@163.com",
+    "password": "xxxx",
+    "from": "证书监控 <xxx@163.com>",
+    "to": [
+      "your email"
+    ]
+  }
+}
